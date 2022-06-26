@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8927352269129390283
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8119852940057657969}
+  - component: {fileID: 5116186686115761620}
+  - component: {fileID: 6981898728006465822}
+  m_Layer: 0
+  m_Name: Wood Platform
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8119852940057657969
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8927352269129390283}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.3205, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3781159581262680610}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!33 &5116186686115761620
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8927352269129390283}
+  m_Mesh: {fileID: -5076798556035486163, guid: 3a109b7e0327b8e44a70732dace40c1a, type: 3}
+--- !u!23 &6981898728006465822
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8927352269129390283}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 8748892135801146194, guid: 3a109b7e0327b8e44a70732dace40c1a, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1001 &4463450564940617489
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 8119852940057657969}
+    m_Modifications:
+    - target: {fileID: 199262930968453001, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_Name
+      value: Fixed Jumper Wood Platform 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 6.2414
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 6.2414
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 6.2414
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0000000014106
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.013725
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4f9f4392af11b0645be52045364d5e29, type: 3}
+--- !u!4 &3781159581262680610 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 686865158214468915, guid: 4f9f4392af11b0645be52045364d5e29,
+    type: 3}
+  m_PrefabInstance: {fileID: 4463450564940617489}
+  m_PrefabAsset: {fileID: 0}
